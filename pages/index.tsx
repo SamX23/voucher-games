@@ -7,11 +7,10 @@ const Home: NextPage = () => {
 
   return (
     <>
-      {/* <!-- Navbar --> */}
       <section>
         <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/#">
+            <a className="navbar-brand" href="/#" aria-label="logo">
               <svg
                 width="60"
                 height="60"
@@ -97,7 +96,6 @@ const Home: NextPage = () => {
         </nav>
       </section>
 
-      {/* <!-- Header --> */}
       <section className="header pt-lg-60 pb-50">
         <div className="container-xxl container-fluid">
           <div className="row gap-lg-0 gap-5">
@@ -107,12 +105,11 @@ const Home: NextPage = () => {
               </p>
               <h1 className="header-title color-palette-1 fw-bold">
                 Topup & Get
-                <span className="d-sm-inline d-none">a</span>
-                <span className="d-sm-none d-inline">a</span>
+                <span className="d-sm-inline d-none"> a</span>
+                <span className="d-sm-none d-inline"> a</span>
                 <span className="underline-blue"> New</span>
                 <br className="d-sm-block d-none" />
-                <span className="underline-blue">Experience</span>
-                in Gaming
+                <span className="underline-blue">Experience</span> in Gaming
               </h1>
               <p className="mt-30 mb-40 text-lg color-palette-1">
                 Kami menyediakan jutaan cara untuk membantu
@@ -248,11 +245,10 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      {/* <!-- 3 Column - Feature --> */}
       <section id="feature" className="feature pt-50 pb-50">
         <div className="container-fluid">
           <h2 className="text-4xl fw-bold color-palette-1 text-center mb-30">
-            It’s Really That <br /> Easy to Win the Game
+            It&apos;s Really That <br /> Easy to Win the Game
           </h2>
           <div className="row gap-lg-0 gap-4" data-aos="fade-up">
             <div className="col-lg-4">
@@ -499,7 +495,6 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      {/* <!-- 5 Column - Featured-game --> */}
       <section className="featured-game pt-50 pb-50">
         <div className="container-fluid">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">
@@ -694,7 +689,6 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      {/* <!-- Reached --> */}
       <section className="reached pt-50 pb-50">
         <div className="container-fluid">
           <div className="d-flex flex-lg-row flex-column align-items-center justify-content-center gap-lg-0 gap-4">
@@ -740,7 +734,6 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      {/* <!-- Story --> */}
       <section className="story pt-50 pb-50">
         <div className="container-xxl container-fluid">
           <div className="row align-items-center px-lg-5 mx-auto gap-lg-0 gap-4">
@@ -783,13 +776,12 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      {/* <!-- Footer --> */}
       <section className="footer pt-50">
         <footer>
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-4 text-lg-start text-center">
-                <a href="/#" className="mb-30">
+                <a href="/#" className="mb-30" aria-label="logo">
                   <svg
                     width="60"
                     height="60"
