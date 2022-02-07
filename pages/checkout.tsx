@@ -1,3 +1,5 @@
+import "../styles/checkout.css";
+
 export default function Checkout() {
   return (
     <section className="checkout mx-auto pt-md-100 pb-md-145 pt-30 pb-30">

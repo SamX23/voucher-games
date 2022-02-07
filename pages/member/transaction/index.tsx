@@ -1,3 +1,5 @@
+import "../../../styles/transactions.css";
+
 const Transactions = () => (
   <section className="transactions overflow-auto">
     <main className="main-wrapper">

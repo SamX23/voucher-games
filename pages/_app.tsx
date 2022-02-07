@@ -1,19 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import "../styles/home.css";
 import "../styles/utilities.css";
-import "../styles/detail.css";
-import "../styles/checkout.css";
-import "../styles/checkoutComplete.css";
-import "../styles/login.css";
-import "../styles/register.css";
-import "../styles/onboarding.css";
-import "../styles/404.css";
-import "../styles/member.css";
-import "../styles/profile.css";
-import "../styles/transactions.css";
-import "../styles/transaction-detail.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
