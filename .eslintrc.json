@@ -39,7 +39,8 @@
           "some": ["nesting", "id"]
         }
       }
-    ]
+    ],
+    "import/extensions": "off"
   },
   "settings": {
     "import/resolver": {
