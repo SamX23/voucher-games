@@ -2,6 +2,8 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import "../styles/utilities.css";
+import "../styles/home.css";
+import "../styles/404.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

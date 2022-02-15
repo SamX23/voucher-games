@@ -1,5 +1,3 @@
-import "../styles/404.css";
-
 const Custom404 = () => (
   <section className="not-found mx-auto pt-145 pb-md-212 pb-100">
     <div className="container-fluid">

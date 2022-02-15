@@ -1,8 +1,6 @@
 import type { NextPage } from "next";
 import { useEffect } from "react";
 import AOS from "aos";
-import "../styles/home.css";
-/* eslint-disable import/extensions */
 import Navbar from "../components/organisms/navbar";
 import Header from "../components/organisms/header";
 import Feature from "../components/organisms/feature";
