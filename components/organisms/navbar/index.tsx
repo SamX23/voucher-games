@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Menu from "./menu";
 import "./styles.module.css";
 
 const Navbar = () => (
@@ -6,7 +7,7 @@ const Navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
       <div className="container-fluid">
         <a className="navbar-brand" href="/" aria-label="logo">
-          <Image src="/icon/logo.svg" width={50} height={50} />
+          <Image src="/icon/logo.svg" width={60} height={60} />
         </a>
         <button
           className="navbar-toggler"
@@ -21,32 +22,15 @@ const Navbar = () => (
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
-            <li className="nav-item my-auto">
-              <a className="nav-link active" aria-current="page" href="/#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item my-auto">
-              <a className="nav-link" href="/#">
-                Games
-              </a>
-            </li>
-            <li className="nav-item my-auto">
-              <a className="nav-link" href="/#">
-                Rewards
-              </a>
-            </li>
+            <Menu title="Games" href="/" active />
+            <Menu title="Rewards" href="/" />
+            <Menu title="Discover" href="/" />
+            <Menu
+              title="Global Rank"
+              href="/"
+              liClass="nav-item my-auto me-lg-20"
+            />
 
-            <li className="nav-item my-auto">
-              <a className="nav-link" href="/#">
-                Discover
-              </a>
-            </li>
-            <li className="nav-item my-auto me-lg-20">
-              <a className="nav-link" href="/#">
-                Global Rank
-              </a>
-            </li>
             <li className="nav-item my-auto">
               <a
                 className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
