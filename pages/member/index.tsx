@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/extensions
-import Sidebar from "../../components/Sidebar";
+import Sidebar from "../../components/organisms/sidebar";
 import "../../styles/member.css";
 
 const Overview = () => (
