@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Menu from "./menu";
-import "./styles.module.css";
 
 const Navbar = () => (
   <section>
