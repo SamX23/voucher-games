@@ -1,5 +1,3 @@
-import "../../../styles/sidebar.css";
-
 const Sidebar = () => (
   <section className="sidebar">
     <div className="content pt-50 pb-30 ps-30">

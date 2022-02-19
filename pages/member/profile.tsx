@@ -1,5 +1,3 @@
-import "../../styles/profile.css";
-
 const Profile = () => (
   <section className="edit-profile overflow-auto">
     <main className="main-wrapper">

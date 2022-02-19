@@ -4,6 +4,10 @@ import Head from "next/head";
 import "../styles/utilities.css";
 import "../styles/home.css";
 import "../styles/404.css";
+import "../styles/member.css";
+import "../styles/sidebar.css";
+import "../styles/transactions.css";
+import "../styles/profile.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
