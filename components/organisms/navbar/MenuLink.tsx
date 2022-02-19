@@ -7,8 +7,10 @@ interface MenuProps {
   liClass?: string;
 }
 
-// eslint-disable-next-line object-curly-newline
-const Menu = ({ title, href, active, liClass }: MenuProps, ...rest: any) => {
+const MenuLink = (
+  { title, href, active, liClass }: MenuProps,
+  ...rest: any
+) => {
   const activeClass = active ? "nav-link active" : "nav-link";
   return (
     <li className={liClass}>
@@ -21,9 +23,9 @@ const Menu = ({ title, href, active, liClass }: MenuProps, ...rest: any) => {
   );
 };
 
-Menu.defaultProps = {
+MenuLink.defaultProps = {
   active: false,
   liClass: "nav-item my-auto",
 };
 
-export default Menu;
+export default MenuLink;
