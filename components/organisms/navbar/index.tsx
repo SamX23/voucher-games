@@ -1,5 +1,7 @@
 import Image from "next/image";
-import Menu from "./menu";
+import MenuAuth from "./MenuAuth";
+import Menu from "./MenuLink";
+import ToggleMenu from "./ToggleMenu";
 
 const Navbar = () => (
   <section>
@@ -8,17 +10,7 @@ const Navbar = () => (
         <a className="navbar-brand" href="/" aria-label="logo">
           <Image src="/icon/logo.svg" width={60} height={60} />
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
+        <ToggleMenu />
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
             <Menu title="Games" href="/" active />
@@ -29,16 +21,7 @@ const Navbar = () => (
               href="/"
               liClass="nav-item my-auto me-lg-20"
             />
-
-            <li className="nav-item my-auto">
-              <a
-                className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
-                href="./src/sign-in.html"
-                role="button"
-              >
-                Sign In
-              </a>
-            </li>
+            <MenuAuth isLogin />
           </ul>
         </div>
       </div>
