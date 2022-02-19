@@ -40,7 +40,9 @@
         }
       }
     ],
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "object-curly-newline": "off"
   },
   "settings": {
     "import/resolver": {
