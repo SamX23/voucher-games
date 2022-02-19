@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import { useEffect } from "react";
 import AOS from "aos";
-import Navbar from "../components/organisms/navbar";
-import Header from "../components/organisms/header";
-import Feature from "../components/organisms/feature";
+import Navbar from "../components/organisms/Navbar";
+import Header from "../components/organisms/MainBanner";
+import Feature from "../components/organisms/FeatureSection";
 
 const Home: NextPage = () => {
   useEffect(() => AOS.init(), []);
