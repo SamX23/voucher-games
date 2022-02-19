@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "../styles/checkout.css";
 
 export default function Checkout() {
   return (

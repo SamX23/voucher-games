@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "../styles/register.css";
 
 const Register = () => (
   <section className="sign-up mx-auto pt-lg-100 pb-lg-100 pt-30 pb-47">

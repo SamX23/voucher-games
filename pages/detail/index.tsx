@@ -1,5 +1,3 @@
-import "../../styles/detail.css";
-
 const Detail = () => (
   <section className="detail pt-lg-60 pb-50">
     <div className="container-xxl container-fluid">
