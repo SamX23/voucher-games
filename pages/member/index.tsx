@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Sidebar from "../../components/organisms/Sidebar";
 
 const Overview = () => (
@@ -337,11 +338,11 @@ const Overview = () => (
               <tbody>
                 <tr className="align-middle">
                   <th scope="row">
-                    <img
+                    <Image
                       className="float-start me-3 mb-lg-0 mb-3"
                       src="/img/overview-1.png"
-                      width="80"
-                      height="60"
+                      width={80}
+                      height={60}
                       alt=""
                     />
                     <div className="game-title-header">
@@ -372,11 +373,11 @@ const Overview = () => (
                 </tr>
                 <tr className="align-middle text-center">
                   <th scope="row">
-                    <img
+                    <Image
                       className="float-start me-3 mb-lg-0 mb-3"
                       src="/img/overview-2.png"
-                      width="80"
-                      height="60"
+                      width={80}
+                      height={60}
                       alt=""
                     />
                     <div className="game-title-header">
@@ -409,11 +410,11 @@ const Overview = () => (
                 </tr>
                 <tr className="align-middle text-center">
                   <th scope="row">
-                    <img
+                    <Image
                       className="float-start me-3 mb-lg-0 mb-3"
                       src="/img/overview-3.png"
-                      width="80"
-                      height="60"
+                      width={80}
+                      height={60}
                       alt=""
                     />
                     <div className="game-title-header">
@@ -446,11 +447,11 @@ const Overview = () => (
                 </tr>
                 <tr className="align-middle text-center">
                   <th scope="row">
-                    <img
+                    <Image
                       className="float-start me-3 mb-lg-0 mb-3"
                       src="/img/overview-4.png"
-                      width="80"
-                      height="60"
+                      width={80}
+                      height={60}
                       alt=""
                     />
                     <div className="game-title-header">
