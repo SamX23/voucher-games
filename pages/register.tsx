@@ -6,7 +6,7 @@ const Register = () => (
       <form action="">
         <div className="pb-50">
           <a className="navbar-brand" href="../index.html">
-            <Image src="/icon/logo.svg" width={50} height={50} />
+            <Image src="/icon/logo.svg" width={50} height={50} alt="" />
           </a>
         </div>
         <h2 className="text-4xl fw-bold color-palette-1 mb-10">Sign Up</h2>

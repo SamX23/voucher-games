@@ -7,15 +7,12 @@ interface MenuProps {
   liClass?: string;
 }
 
-const MenuLink = (
-  { title, href, active, liClass }: MenuProps,
-  ...rest: any
-) => {
+const MenuLink = ({ title, href, active, liClass }: MenuProps) => {
   const activeClass = active ? "nav-link active" : "nav-link";
   return (
     <li className={liClass}>
       <Link href={href}>
-        <a className={activeClass} aria-current="page" {...rest}>
+        <a className={activeClass} aria-current="page">
           {title}
         </a>
       </Link>
