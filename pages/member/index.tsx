@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Sidebar from "../../components/organisms/Sidebar";
+import Sidebar from "../../components/organisms/SidebarNavigation";
 
 const Overview = () => (
   <section className="Overview overflow-auto">
