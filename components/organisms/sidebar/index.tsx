@@ -1,11 +1,13 @@
+import Image from "next/image";
+
 const Sidebar = () => (
   <section className="sidebar">
     <div className="content pt-50 pb-30 ps-30">
       <div className="user text-center pb-50 pe-30">
-        <img
+        <Image
           src="/img/avatar-1.png"
-          width="90"
-          height="90"
+          width={90}
+          height={90}
           className="img-fluid mb-20"
           alt="avatar"
         />

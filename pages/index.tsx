@@ -1,18 +1,19 @@
 import type { NextPage } from "next";
 import { useEffect } from "react";
 import AOS from "aos";
-import Navbar from "../components/organisms/Navbar";
+import NavigationBar from "../components/organisms/NavigationBar";
 import Header from "../components/organisms/MainBanner";
 import Transaction from "../components/organisms/TransactionSection";
 import FeatureGame from "../components/organisms/FeatureGame";
 import Link from "next/link";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   useEffect(() => AOS.init(), []);
 
   return (
     <>
-      <Navbar />
+      <NavigationBar />
       <Header />
       <Transaction />
       <FeatureGame />
@@ -69,10 +70,10 @@ const Home: NextPage = () => {
               className="col-lg-7 col-12 d-lg-flex d-none justify-content-lg-end pe-lg-60"
               data-aos="zoom-in"
             >
-              <img
+              <Image
                 src="/img/Header-9.png"
-                width="612"
-                height="452"
+                width={612}
+                height={452}
                 className="img-fluid"
                 alt=""
               />
@@ -90,13 +91,14 @@ const Home: NextPage = () => {
                   <br className="d-sm-block d-none" /> pemenang sejati
                 </p>
                 <div className="d-md-block d-flex flex-column w-100">
-                  <a
-                    className="btn btn-read text-lg rounded-pill"
-                    href="/#"
-                    role="button"
-                  >
-                    Read Story
-                  </a>
+                  <Link href="/">
+                    <a
+                      className="btn btn-read text-lg rounded-pill"
+                      role="button"
+                    >
+                      Read Story
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

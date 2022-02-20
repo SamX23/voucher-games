@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface props {
@@ -10,23 +11,23 @@ const MenuAuth = ({ isLogin }: props) => {
       <li className="nav-item my-auto dropdown d-flex">
         <div className="vertical-line d-lg-block d-none" />
         <div>
-          <a
-            className="dropdown-toggle ms-lg-40"
-            href="/"
-            role="button"
-            id="dropdownMenuLink"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <img
-              src="/img/avatar-1.png"
-              className="rounded-circle"
-              width="40"
-              height="40"
-              alt=""
-            />
-          </a>
-
+          <Link href="/">
+            <a
+              className="dropdown-toggle ms-lg-40"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <Image
+                src="/img/avatar-1.png"
+                className="rounded-circle"
+                width={40}
+                height={40}
+                alt=""
+              />
+            </a>
+          </Link>
           <ul
             className="dropdown-menu border-0"
             aria-labelledby="dropdownMenuLink"
