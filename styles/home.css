@@ -153,6 +153,7 @@
 .featured-game .featured-game-card:hover .blur-sharp {
   width: 192px;
   border: 7px solid white;
+  height: 100%;
 }
 
 .featured-game .cover {

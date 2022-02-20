@@ -1,7 +1,6 @@
+import "bootstrap/dist/css/bootstrap.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import "bootstrap/dist/css/bootstrap.css";
-import "../styles/globals.css";
 import "../styles/utilities.css";
 import "../styles/home.css";
 import "../styles/404.css";
@@ -21,11 +20,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <html lang="en" />
-        <link
-          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-          rel="stylesheet"
-        />
         <title>StoreGG</title>
       </Head>
       <Component {...pageProps} />

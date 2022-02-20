@@ -17,6 +17,7 @@ const FeatureCard = ({ title, category, order }: props) => (
             src={`/img/Thumbnail-${order}.png`}
             width={205}
             height={270}
+            layout="fixed"
             alt={`thumbnail-${order}`}
           />
         </div>
