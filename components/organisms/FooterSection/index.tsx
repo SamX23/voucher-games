@@ -23,7 +23,7 @@ const FooterSection = () => {
                 <br /> untuk menjadi pemenang sejati
               </p>
               <p className="mt-30 text-lg color-palette-1 mb-30">
-                Copyright 2022. All Rights Reserved.
+                Copyright 2022 - Sami Kalammallah
               </p>
             </div>
             <div className="col-lg-8 mt-lg-0 mt-20">
@@ -102,15 +102,6 @@ const FooterSection = () => {
                         className="text-lg color-palette-1 text-decoration-none"
                       >
                         skalexsong+web@gmail.com
-                      </a>
-                    </li>
-                    <li className="mb-6">
-                      <a
-                        href="http://maps.google.com/?q=Pasific 12,
-                                    Jakarta Selatan"
-                        className="text-lg color-palette-1 text-decoration-none"
-                      >
-                        Pasific 12, Jakarta Selatan
                       </a>
                     </li>
                     <li className="mb-6">

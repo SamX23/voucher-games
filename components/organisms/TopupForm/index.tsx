@@ -107,13 +107,6 @@ const TopupForm = () => {
             Continue
           </a>
         </Link>
-
-        <button
-          type="submit"
-          className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg"
-        >
-          Continue
-        </button>
       </div>
     </form>
   );
