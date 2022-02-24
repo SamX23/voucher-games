@@ -56,7 +56,7 @@ const RegisterForm = () => {
         />
       </div>
       <div className="button-group d-flex flex-column mx-auto pt-50">
-        <Link href="/">
+        <Link href="/onboarding">
           <a
             className="btn btn-sign-up fw-medium text-lg text-white rounded-pill mb-16"
             role="button"
@@ -67,7 +67,6 @@ const RegisterForm = () => {
         <Link href="/login">
           <a
             className="btn btn-sign-in fw-medium text-lg color-palette-1 rounded-pill"
-            href="../src/sign-in.html"
             role="button"
           >
             Sign In
