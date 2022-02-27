@@ -49,6 +49,10 @@
   transition: all 0.2s linear;
 }
 
+.sidebar .menus .item .icon {
+  display: flex;
+}
+
 .sidebar-footer .footer-card {
   background-color: #f9faff;
   border-radius: 1rem;
