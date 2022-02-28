@@ -5,15 +5,18 @@ import React from "react";
 interface props {
   url: string;
   title: string;
-  active?: string;
+  active?: boolean;
 }
 
 const SidebarItem = ({ url, title, active }: props) => {
+  const iconName = title.toLowerCase().replace(" ", "-");
+  const activeItem = active ? "active" : "";
+
   return (
-    <div className={`item mb-30 ${active}`}>
+    <div className={`item mb-30 ${activeItem}`}>
       <div className="icon me-3">
         <Image
-          src={`/icon/${title.toLowerCase().replace(" ", "-")}.svg`}
+          src={`/icon/${iconName}.svg`}
           width={25}
           height={25}
           alt={title}

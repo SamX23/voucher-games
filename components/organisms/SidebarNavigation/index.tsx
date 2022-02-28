@@ -12,7 +12,7 @@ const Sidebar = () => (
         email="shayna@anne.com"
       />
       <div className="menus">
-        <SidebarItem url="/member" title="Overview" active="active" />
+        <SidebarItem url="/member" title="Overview" active />
         <SidebarItem url="/" title="Transactions" />
         <SidebarItem url="/" title="Messages" />
         <SidebarItem url="/" title="Card" />
