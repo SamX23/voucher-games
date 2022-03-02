@@ -9,7 +9,7 @@ const Register = () => (
         <div className="pb-50">
           <Link href="/">
             <a className="navbar-brand">
-              <Image src="/icon/logo.svg" width={50} height={50} alt="" />
+              <Image src="/icon/logo.svg" width={50} height={50} alt="logo" />
             </a>
           </Link>
         </div>
