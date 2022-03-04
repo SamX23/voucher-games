@@ -26,10 +26,11 @@
   font-weight: 500;
 }
 
-.sidebar .menus .item.active > svg path,
-.sidebar .menus .item:hover > svg path {
+.sidebar .menus .item.active img,
+.sidebar .menus .item:hover img {
   transition: all 0.2s linear;
-  stroke: #4d17e2;
+  stroke: #4d17e2 !important;
+  color: #4d17e2 !important;
 }
 
 .sidebar .menus .item.active::after {
